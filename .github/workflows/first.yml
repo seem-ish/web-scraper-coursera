@@ -7,13 +7,13 @@ jobs:
     name: First job
     runs-on: ubuntu-latest
     steps: 
-    - name: Step two  
+    - name: Step one  
       run: env | sort
   job2:
     name: Second job
     runs-on: windows-latest 
     steps: 
-    - name: Step two
+    - name: Step one
       run: "Get-ChildItem Env: | Sort-Object Name"
 
 
